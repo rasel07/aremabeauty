@@ -1,0 +1,105 @@
+.sqs-announcement-bar-text {
+    background-color: #f6e3da;
+}
+
+div#announcement-bar-text-inner-id p {
+    color: #b93753;
+}
+
+.marquee-block .marquee-wrapper {
+    animation-play-state: running !important;
+}
+
+div#shop a {
+    line-height: 3;
+}
+
+p.empty-message.css-1ginkfr {
+    color: #b93753;
+}
+
+.header-nav-item--folder > a::after {
+  content: " \2B9F";
+  font-size: 1em;
+  margin-left: 5px;
+  color: inherit;
+  transition: 0.2s;
+}
+
+section[data-section-id="69a18fce136fcd7d84bdd4ef"] a.product-title {
+  color: #b93753;}
+
+section[data-section-id="69a18fce136fcd7d84bdd4ef"]  .product-price {
+  color: #b93753;
+}
+
+/* Hide the default SVG icons */
+.user-items-list-carousel__arrow-button--right svg, 
+.user-items-list-carousel__arrow-button--left svg { 
+  display: none; 
+} 
+
+/* Add your custom left arrow image */
+.user-items-list-carousel__arrow-button--left .user-items-list-carousel__arrow-icon-background-area {
+  background-image: url(https://raselkabir.com/wp-content/uploads/2026/03/icon.svg); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 65px;
+  height: 40px; /* Adjust size as needed */
+  transform: rotate(180deg);
+}
+.user-items-list-carousel .user-items-list-carousel__arrow-icon-background{
+  background-color: #fff
+}
+
+/* Add your custom right arrow image */
+.user-items-list-carousel__arrow-button--right .user-items-list-carousel__arrow-icon-background-area { 
+  background-image: url(https://raselkabir.com/wp-content/uploads/2026/03/icon.svg); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 65px;
+  height: 40px;
+}
+
+#block-ddc03414b3e4f7ddb57a.sqs-block-marquee h1 {
+    color: #b93753;}
+
+#block-08a76cfd93dd1ff2e086 h1 {
+    color: #f6e3da;}
+
+.header-display-desktop [data-href="/mens-clothes"] + .header-nav-folder-content{
+   width:100vw;
+   right:0 !important;
+   left: 0 !important;
+   position:fixed;
+   box-sizing:border-box;
+   padding:0px !important;
+}
+
+.header-display-desktop [data-href="/mens-clothes"] + .header-nav-folder-content{
+  width:100vw;
+  right:0 !important;
+  left: 0 !important;
+  position:fixed;
+  box-sizing:border-box;
+  padding:0px;
+  border-bottom:1px solid;
+  box-shadow:0px 5px 5px #aaa;
+}
+
+.header-display-desktop [data-href="/mens-clothes"] + .header-nav-folder-content .header-nav-folder-item{
+   display:none;
+}
+
+/* Hide the top image initially */
+#fe-block fe-block-863c73bbeb4311481d22 img {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out; /* Optional: adds a smooth fade effect */
+}
+
+/* Show the top image on hover */
+#fe-block fe-block-863c73bbeb4311481d22 img:hover {
+  opacity: 1;
+}
